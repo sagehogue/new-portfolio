@@ -1,0 +1,41 @@
+.Landing {
+  /* padding: 1.75rem; */
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.Landing h1,
+.Landing h2,
+.Landing h3,
+.Landing h4,
+.Landing h5 {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Landing h1 {
+  font-size: 3rem;
+  line-height: 5rem;
+}
+
+.Landing .PageHeading {
+  margin-bottom: 3.5rem;
+}
+
+.Landing .SubHeading {
+  margin-bottom: 3.5rem;
+}
+
+.Signature {
+  font-family: var(--font-signature);
+  color: var(--color-text-highlight);
+  display: block;
+  font-size: 7.1rem;
+}
+
+/* @media screen and (min-width: 700px) {
+  .Landing {
+  }
+} */

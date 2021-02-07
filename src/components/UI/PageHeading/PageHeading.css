@@ -1,0 +1,5 @@
+.PageHeading {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-family: var(--font-pageheading);
+}

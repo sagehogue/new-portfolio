@@ -1,0 +1,36 @@
+.Navigation {
+  grid-column: 8 / -1;
+  grid-row: 1 / -1;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-ii);
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 15vh 0 15vh 0;
+  font-family: var(--font-pageheading);
+  color: var(--color-ii-contrast);
+  overflow: hidden;
+}
+
+.Navigation-Category {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.Navigation-Label {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.Navigation .Button {
+  margin: 0.5rem 0.2rem;
+  font-weight: 600;
+  color: var(--color-ii-contrast);
+}
+
+.Navigation hr {
+  margin: 0 25% 0.5rem 25%;
+}
