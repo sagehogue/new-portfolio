@@ -4,5 +4,21 @@
   background-color: var(--color-i);
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
+}
+
+.Top-Nav-Triangle {
+  background-color: var(--color-i);
+  grid-row: 1 / 4;
+  grid-column: 8 / -1;
+  clip-path: polygon(0 100%, 100% 50%, 100% 0, 0 0);
+  z-index: 2;
+}
+.Bottom-Nav-Triangle {
+  background-color: var(--color-i);
+  grid-row: 8 / -1;
+  grid-column: 8 / -1;
+  clip-path: polygon(0 0, 100% 50%, 100% 100%, 0% 100%);
+  z-index: 2;
+  position: relative;
 }

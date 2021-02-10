@@ -1,6 +1,7 @@
 .Navigation {
   grid-column: 8 / -1;
   grid-row: 1 / -1;
+  z-index: 1;
   height: 100%;
   width: 100%;
   background-color: var(--color-ii);
@@ -10,14 +11,20 @@
   padding: 15vh 0 15vh 0;
   font-family: var(--font-pageheading);
   color: var(--color-ii-contrast);
-  overflow: hidden;
+  /* overflow: hidden; */
+  position: relative;
 }
 
+.Navigation a {
+  display: block;
+  text-decoration: none;
+}
 .Navigation-Category {
   display: flex;
   flex-direction: column;
   margin: 1rem 0;
   width: 100%;
+  list-style: none;
 }
 
 .Navigation-Label {
@@ -26,11 +33,21 @@
 }
 
 .Navigation .Button {
-  margin: 0.5rem 0.2rem;
+  display: block;
+  width: 90%;
+  margin: 0.25rem auto;
   font-weight: 600;
   color: var(--color-ii-contrast);
 }
 
 .Navigation hr {
   margin: 0 25% 0.5rem 25%;
+}
+.Triangle {
+  background-color: var(--color-i);
+  height: 225px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  clip-path: polygon(0 0, 100% 73%, 100% 100%, 0% 100%);
 }

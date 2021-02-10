@@ -4,22 +4,6 @@
   padding: 0;
 }
 
-:root {
-  --color-i: #f9dec9;
-  --color-ii: #e9afa3;
-  --color-iii: #99b2dd;
-  --color-iv: #3a405a;
-  --color-v: #685044;
-  --color-vi: #3b8ea5;
-  --color-text-i: #312f2f;
-  --color-text-ii: #ff5e5b;
-  --color-ii-contrast: #473144;
-  --color-text-highlight: #ff5e5b;
-  --font-subheading: "Kanit", sans-serif;
-  --font-pageheading: "Arvo", serif;
-  --font-signature: "Dancing Script", cursive;
-}
-
 .App {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
