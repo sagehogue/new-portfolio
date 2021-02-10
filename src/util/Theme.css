@@ -12,4 +12,5 @@
   --font-subheading: "Kanit", sans-serif;
   --font-pageheading: "Arvo", serif;
   --font-signature: "Dancing Script", cursive;
+  --transition-effect-timing: 0.35s;
 }

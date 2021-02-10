@@ -27,6 +27,10 @@
   list-style: none;
 }
 
+.Navigation li {
+  transition: all var(--transition-effect-timing);
+}
+
 .Navigation-Label {
   text-align: center;
   font-size: 1.3rem;
@@ -38,6 +42,10 @@
   margin: 0.25rem auto;
   font-weight: 600;
   color: var(--color-ii-contrast);
+}
+
+.Navigation-Active {
+  background-color: var(--color-text-highlight);
 }
 
 .Navigation hr {
