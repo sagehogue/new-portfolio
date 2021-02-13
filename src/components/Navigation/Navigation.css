@@ -59,3 +59,21 @@
   bottom: 0;
   clip-path: polygon(0 0, 100% 73%, 100% 100%, 0% 100%);
 }
+
+@media screen and (max-height: 800px) {
+  .Navigation-Category {
+    margin: 0;
+  }
+  .Navigation-Label {
+    font-size: 1.1rem;
+  }
+  .Navigation .Button {
+    margin: 0.1rem auto;
+  }
+  .Navigation hr {
+    margin: 0 25% 0.1rem 25%;
+  }
+  .Template-Quote-Adjustment {
+    transform: translateX(1.25rem) translateY(-1rem);
+  }
+}

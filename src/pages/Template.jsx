@@ -1,13 +1,13 @@
 import React from "react";
 import "./Template.css";
 import { motion } from "framer-motion";
-
+import robot from "../img/robot.svg";
 import {
   changeWebPage,
   changeWebPageTriangle,
   transition,
 } from "../animations";
-export default function Template({ children }) {
+export default function Template({ children, showMascot = false }) {
   return (
     <>
       <motion.div
@@ -35,7 +35,17 @@ export default function Template({ children }) {
         exit="out"
         variants={changeWebPageTriangle}
         transition={transition}
-      ></motion.div>
+      >
+        {showMascot ? (
+          <div className="Navigation-Mascot-Wrapper">
+            <img
+              src={robot}
+              className={"Navigation-Mascot"}
+              alt={"Award-o-Bot"}
+            />
+          </div>
+        ) : null}
+      </motion.div>
     </>
   );
 }

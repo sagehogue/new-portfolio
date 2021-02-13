@@ -45,21 +45,71 @@
 .Template-Award-Container {
   display: flex;
   z-index: 5;
-  max-width: 75vw;
-  max-height: 200px;
-  justify-content: flex-start;
-  align-content: flex-start;
+  flex-direction: column;
+  margin-top: auto;
+  justify-content: flex-end;
+  align-content: flex-end;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 70vw;
 }
 .Template-Award-Container img {
-  background-size: 3rem;
-  /* transform: scale(0.5) translateX(-7rem); */
+  margin-left: auto;
+  height: 150px;
+  width: 150px;
 }
 
-.Template-Move-Right {
+.Template-Quote-Adjustment {
+  transform: translateX(1.75rem) translateY(-1.25rem);
 }
 .Template-Move-Up {
   transform: translateY(-1rem);
 }
 .Template-Move-Up-More {
   transform: translateY(-1.65rem);
+}
+@media screen and (max-height: 700px) {
+  .Template-Award-Container img {
+    height: 125px;
+    width: 125px;
+  }
+}
+@media screen and (max-height: 550px) {
+  .Landing .PageHeading {
+    margin-bottom: 1rem;
+  }
+
+  .Landing .SubHeading {
+    margin-bottom: 0.5rem;
+  }
+  .Signature {
+    font-size: 5.5rem;
+  }
+  .Landing h1 {
+    font-size: 2.25rem;
+    line-height: 4rem;
+  }
+  .Landing h3 {
+    font-size: 1.35rem;
+    line-height: 1.75rem;
+  }
+  .Landing h1,
+  .Landing h2,
+  .Landing h3,
+  .Landing h4,
+  .Landing h5 {
+    max-width: 75%;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (max-height: 400px) {
+  .Template-Award-Container img {
+    height: 105px;
+    width: 105px;
+  }
+  .Template-Quote-Adjustment {
+    transform: translateX(1.25rem) translateY(-1rem);
+  }
 }

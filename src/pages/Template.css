@@ -22,3 +22,31 @@
   z-index: 2;
   position: relative;
 }
+.Navigation-Mascot {
+  height: 105px;
+  width: 105px;
+  transform: translateY(0.8rem);
+}
+
+.Navigation-Mascot-Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  overflow: hidden;
+}
+@media screen and (max-height: 500px) {
+  .Top-Nav-Triangle {
+    clip-path: polygon(0 75%, 100% 50%, 100% 0, 0 0);
+  }
+  .Bottom-Nav-Triangle {
+    clip-path: polygon(0 25%, 100% 50%, 100% 100%, 0% 100%);
+  }
+}
+@media screen and (max-height: 400px) {
+  .Navigation-Mascot {
+    height: 95px;
+    width: 95px;
+    transform: translateY(1rem) translateX(-0.25rem);
+  }
+}
