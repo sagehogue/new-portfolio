@@ -57,12 +57,14 @@
 }
 .Template-Award-Container img {
   margin-left: auto;
-  height: 150px;
-  width: 150px;
+  /* height: 150px;
+  width: 150px; */
 }
 
 .Template-Quote-Adjustment {
   transform: translateX(1.75rem) translateY(-1.25rem);
+  height: 175px;
+  width: 175px;
 }
 .Template-Move-Up {
   transform: translateY(-1rem);
@@ -111,5 +113,106 @@
   }
   .Template-Quote-Adjustment {
     transform: translateX(1.25rem) translateY(-1rem);
+  }
+}
+@media screen and (min-height: 800px) {
+  .Landing .PageHeading {
+    margin-bottom: 2.5rem;
+  }
+
+  .Landing .SubHeading {
+    margin-bottom: 2.5rem;
+  }
+  /* .Signature {
+    font-size: 5.5rem;
+  } */
+  .Landing h1 {
+    /* font-size: 2.25rem;
+    line-height: 4rem; */
+  }
+  .Landing h3 {
+    /* font-size: 1.35rem;
+    line-height: 1.75rem; */
+  }
+  .Landing h1,
+  .Landing h2,
+  .Landing h3,
+  .Landing h4,
+  .Landing h5 {
+    max-width: 75%;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (min-width: 800px) and (min-height: 600px) {
+  .Landing .PageHeading {
+    margin-bottom: 3rem;
+    line-height: 6rem;
+    font-size: 3.25rem;
+  }
+
+  .Landing .SubHeading {
+    margin-bottom: 4rem;
+  }
+  .Signature {
+    font-size: 8.5rem;
+    margin-bottom: 7.5rem;
+    margin-top: 1rem;
+  }
+  .Landing h3 {
+    /* font-size: 1.35rem;
+    line-height: 1.75rem; */
+  }
+}
+
+@media screen and (min-width: 800px) and (min-height: 800px) {
+  .Landing .PageHeading {
+    margin-bottom: 3rem;
+    line-height: 6rem;
+    font-size: 5rem;
+  }
+
+  .Landing .SubHeading {
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  .Signature {
+    font-size: 8.5rem;
+    margin-bottom: 7.5rem;
+    margin-top: 1rem;
+  }
+  .Landing h3 {
+    /* font-size: 1.35rem;
+    line-height: 1.75rem; */
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .Landing .PageHeading {
+    margin-top: 5rem;
+  }
+
+  /* .Landing .SubHeading {
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  .Signature {
+    font-size: 8.5rem;
+    margin-bottom: 7.5rem;
+    margin-top: 1rem;
+  } */
+  .Landing h3 {
+    /* font-size: 1.35rem;
+    line-height: 1.75rem; */
+  }
+}
+@media screen and (min-width: 1600px) {
+  .Template-Quote-Adjustment {
+    height: 205px;
+    width: 205px;
+    transform: translateX(2rem) translateY(-1.75rem);
+    /* transform: translateY(1.5rem) translateX(-0.35rem); */
   }
 }

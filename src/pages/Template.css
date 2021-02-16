@@ -50,3 +50,17 @@
     transform: translateY(1rem) translateX(-0.25rem);
   }
 }
+@media screen and (min-width: 1200px) {
+  .Navigation-Mascot {
+    height: 125px;
+    width: 125px;
+    transform: translateY(0.25rem) translateX(-0.25rem);
+  }
+}
+@media screen and (min-width: 1600px) {
+  .Navigation-Mascot {
+    height: 175px;
+    width: 175px;
+    transform: translateY(1.5rem) translateX(-0.35rem);
+  }
+}

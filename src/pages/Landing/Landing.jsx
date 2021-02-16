@@ -17,8 +17,8 @@ export default function Landing() {
           Hi, I'm <span className="Signature">Sage</span>
         </PageHeading>
         <SubHeading>
-          I'm a PDX native, a web developer, sustainability advocate, and a
-          nascent entrepreneur.
+          I'm a PDX native, a web developer, autodidact, and a nascent
+          entrepreneur.
         </SubHeading>
         <SubHeading>& this is where I organize and list my projects</SubHeading>
         <div className="Template-Award-Container">
@@ -28,8 +28,6 @@ export default function Landing() {
               "#1 Developer as rated by Sage Hogue's directory of developers to know"
             }
             className="Template-Quote-Adjustment"
-            height="150px"
-            width="150px"
           />
 
           {/* CREATE A FIGURE TO GO HERE TO BE CLAIMING THE SPEECH BUBBLE */}
