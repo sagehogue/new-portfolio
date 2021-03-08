@@ -1,0 +1,16 @@
+.Widget-Cabinet {
+  /* margin-top: 2.75vh; */
+  background-color: whitesmoke;
+  min-height: 65vh;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Widget-Cabinet-Option {
+  background-color: lightblue;
+  min-height: 1.75rem;
+  padding: 0.5rem 0;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
