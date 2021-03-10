@@ -1,16 +1,25 @@
 .Widget-Cabinet {
+  position: relative;
   /* margin-top: 2.75vh; */
   background-color: whitesmoke;
-  min-height: 65vh;
+  min-height: 54.5vh;
+  max-height: 80vh;
   width: 60vw;
   margin-left: auto;
   margin-right: auto;
 }
 .Widget-Cabinet-Option {
+  transition: all 0.2s;
   background-color: lightblue;
   min-height: 1.75rem;
   padding: 0.5rem 0;
   font-size: 1.25rem;
   letter-spacing: 2px;
   text-align: center;
+  border: 1px solid transparent;
+  z-index: 1;
+}
+
+.Widget-Cabinet-Option:last-of-type {
+  /* border-bottom: 2px solid whitesmoke; */
 }
