@@ -10,7 +10,7 @@
 }
 
 .Widget-Display-Title {
-  margin-top: 1.95rem;
+  /* margin-top: 1.95rem; */
   font-size: 2.15rem;
   text-align: center;
   font-weight: 600;
@@ -48,7 +48,7 @@
 
 .Widget-Display-Arrow {
   position: absolute;
-  top: 0.1rem;
+  top: 3.25rem;
   left: 0;
   font-size: 1.75rem;
 }
@@ -61,6 +61,33 @@
     font-family: var(--font-pageheading);
   }
   .Widget-Display-Arrow {
-    font-size: 2.25rem;
+    font-size: 3rem;
+    top: 0rem;
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .Widget-Display-Title {
+    /* margin-top: 1.95rem; */
+    /* font-size: 2.15rem; */
+    text-align: center;
+    font-weight: 600;
+    font-family: var(--font-pageheading);
+    max-width: 80%;
+    margin: 0 auto 0 auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .Widget-Display-Arrow {
+    font-size: 4rem;
+  }
+  .Widget-Display-Title {
+    /* margin-top: 1.95rem; 
+    font-size: 2.15rem;
+    text-align: center;
+    font-weight: 600;
+    font-family: var(--font-pageheading);*/
   }
 }

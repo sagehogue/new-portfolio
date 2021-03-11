@@ -1,9 +1,10 @@
+import GhostButton from "./WidgetComponents/Buttons/GhostButton/GhostButton";
 let widgets = [
   {
-    title: "button 1",
+    title: "Ghost Button",
     id: "widget-button-01",
-    element: <div>Test test test button 1</div>,
-    description: "This is our first test element",
+    element: <GhostButton>Enter</GhostButton>,
+    description: "A simple button, with effects.",
   },
 ];
 

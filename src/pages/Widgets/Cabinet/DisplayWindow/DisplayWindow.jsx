@@ -12,11 +12,11 @@ export default function DisplayWindow({ widget, returnHandler }) {
       exit={{ opacity: 0 }}
       className="Widget-Display-Window"
     >
+      <div className="Widget-Display-Title">{widget.title}</div>
       <BsArrowReturnLeft
         className={"Widget-Display-Arrow"}
         onClick={returnHandler}
       />
-      <div className="Widget-Display-Title">{widget.title}</div>
       <div
         className={`Widget-Display-Wrapper  ${
           widget.hideOverflow ? "Widget-Display-Hide-Overflow" : ""

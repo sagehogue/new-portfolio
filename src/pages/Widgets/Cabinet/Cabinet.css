@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 600px) {
   .Widget-Cabinet {
-    min-height: 54.5vh;
+    /* min-height: 54.5vh; */
     max-height: 80vh;
   }
 }
