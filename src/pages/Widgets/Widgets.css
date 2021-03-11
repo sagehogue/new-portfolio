@@ -1,6 +1,6 @@
 .Widget-Title-Placement {
   margin-top: 2.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   text-align: center;
   /* width: 92.5vw; */
 }
@@ -16,9 +16,10 @@
   margin: 0;
   padding: 0.5rem 0.75rem;
   cursor: pointer;
-  font-family: var(--font-pageheading);
+  font-family: var(--font-subheading);
   font-size: 0.7rem;
   transition: all 0.35s;
+  font-weight: 600;
 }
 .Widget-Tab-Active {
   background-color: var(--color-text-highlight);

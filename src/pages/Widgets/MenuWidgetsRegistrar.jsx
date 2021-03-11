@@ -2,10 +2,10 @@ import Hamburger from "./WidgetComponents/Menus/HamburgerMenu/Hamburger";
 
 const widgets = [
   {
-    title: "Menu 1",
+    title: "Hamburger Menu",
     id: "widget-menu-01",
     element: <Hamburger />,
-    description: "This is our first test element",
+    description: `A simple, "handcrafted" hamburger menu. 2 states, no frills.`,
   },
   {
     title: "Menu 2",

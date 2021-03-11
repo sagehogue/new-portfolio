@@ -1,16 +1,3 @@
-.Menu-Widget--Hamburger {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-
-.Menu-Widget--Hamburger-Div {
-  width: 4.5rem;
-  height: 0.45rem;
-  background-color: var(--color-text-i);
-  margin-top: 0.3rem;
-}
-
 .Menu-Widget--Hamburger-Top-Div {
 }
 .Menu-Widget--Hamburger-Middle-Div {

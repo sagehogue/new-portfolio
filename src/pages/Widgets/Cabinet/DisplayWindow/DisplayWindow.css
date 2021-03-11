@@ -10,9 +10,11 @@
 }
 
 .Widget-Display-Title {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   font-size: 3.25rem;
   text-align: center;
+  font-weight: 600;
+  font-family: var(--font-pageheading);
 }
 
 .Widget-Display-Wrapper {
@@ -22,9 +24,12 @@
 
 .Widget-Display-Description {
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   font-size: 1.25rem;
   line-height: 1.65rem;
   margin-left: 1rem;
   margin-right: 1rem;
+  text-align: center;
+  font-family: var(--font-subheading);
+  font-weight: 500;
 }
