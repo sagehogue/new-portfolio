@@ -5,9 +5,9 @@ import PageHeading from "../../components/UI/PageHeading/PageHeading";
 import Cabinet from "./Cabinet/Cabinet.jsx";
 import { AnimatePresence, motion } from "framer-motion";
 
-import menuWidgets from "./MenuWidgets";
-import buttonWidgets from "./ButtonWidgets";
-import effectWidgets from "./EffectWidgets";
+import menuWidgets from "./MenuWidgetsRegistrar";
+import buttonWidgets from "./ButtonWidgetsRegistrar";
+import effectWidgets from "./EffectWidgetsRegistrar";
 
 // selection controls which widget group is selected
 // display controls what specific widget is displayed

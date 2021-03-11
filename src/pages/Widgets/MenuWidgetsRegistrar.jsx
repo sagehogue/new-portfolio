@@ -1,8 +1,10 @@
+import Hamburger from "./WidgetComponents/Menus/HamburgerMenu/Hamburger";
+
 const widgets = [
   {
     title: "Menu 1",
     id: "widget-menu-01",
-    element: <div>Test test test Menu 1</div>,
+    element: <Hamburger />,
     description: "This is our first test element",
   },
   {
