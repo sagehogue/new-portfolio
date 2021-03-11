@@ -6,6 +6,7 @@ const widgets = [
     id: "widget-menu-01",
     element: <Hamburger />,
     description: `A simple, "handcrafted" hamburger menu. 2 states, no frills.`,
+    hideOverflowX: true,
   },
   {
     title: "Menu 2",

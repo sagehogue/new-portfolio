@@ -19,7 +19,3 @@
   border: 1px solid transparent;
   z-index: 1;
 }
-
-.Widget-Cabinet-Option:last-of-type {
-  /* border-bottom: 2px solid whitesmoke; */
-}

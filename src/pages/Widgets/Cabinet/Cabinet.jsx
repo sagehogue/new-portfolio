@@ -40,7 +40,7 @@ export default function Cabinet({
       {widgetList.map((widget) => {
         return (
           <div
-            className="Widget-Cabinet-Option"
+            className={`Widget-Cabinet-Option`}
             onClick={() => {
               clickHandler(widget);
             }}

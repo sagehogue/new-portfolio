@@ -13,4 +13,9 @@
   --font-pageheading: "Arvo", serif;
   --font-signature: "Dancing Script", cursive;
   --transition-effect-timing: 0.35s;
+  --highlighter: "#F5DD64";
+}
+
+* {
+  letter-spacing: 1px;
 }

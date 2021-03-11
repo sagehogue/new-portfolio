@@ -33,3 +33,15 @@
   font-family: var(--font-subheading);
   font-weight: 500;
 }
+
+.Widget-Display-Hide-Overflow {
+  overflow: hidden;
+}
+
+.Widget-Display-Hide-OverflowX {
+  overflow-x: hidden;
+}
+
+.Widget-Display-Hide-OverflowY {
+  overflow-y: hidden;
+}
