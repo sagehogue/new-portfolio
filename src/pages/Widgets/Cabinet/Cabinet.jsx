@@ -7,6 +7,7 @@ export default function Cabinet({
   buttonWidgets,
   effectWidgets,
   clickHandler,
+  returnHandler,
   shouldDisplayWidget,
   menuSelection,
 }) {
@@ -23,12 +24,15 @@ export default function Cabinet({
   let [widgetList, setWidgetList] = useState(
     determineWidgetList(menuSelection)
   );
-  let [widget, setWidget] = useState(false);
   useEffect(() => {
     setWidgetList(determineWidgetList(menuSelection));
   }, [menuSelection]);
   let widgetView = (
-    <DisplayWindow widget={shouldDisplayWidget} key={"Cabinet-Widget-View"} />
+    <DisplayWindow
+      widget={shouldDisplayWidget}
+      key={"Cabinet-Widget-View"}
+      returnHandler={returnHandler}
+    />
   );
   let selectionView = (
     <motion.div

@@ -1,8 +1,9 @@
 import React from "react";
 import "./DisplayWindow.css";
 import { motion } from "framer-motion";
+import { BsArrowReturnLeft } from "react-icons/bs";
 
-export default function DisplayWindow({ widget }) {
+export default function DisplayWindow({ widget, returnHandler }) {
   console.log(widget);
   return (
     <motion.div
@@ -11,6 +12,10 @@ export default function DisplayWindow({ widget }) {
       exit={{ opacity: 0 }}
       className="Widget-Display-Window"
     >
+      <BsArrowReturnLeft
+        className={"Widget-Display-Arrow"}
+        onClick={returnHandler}
+      />
       <div className="Widget-Display-Title">{widget.title}</div>
       <div
         className={`Widget-Display-Wrapper  ${

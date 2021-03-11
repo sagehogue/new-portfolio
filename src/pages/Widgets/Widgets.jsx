@@ -15,6 +15,9 @@ import effectWidgets from "./EffectWidgetsRegistrar";
 export default function Widgets() {
   let [selection, setSelection] = useState("Menus");
   let [display, setDisplay] = useState(false);
+  let goBackHandler = () => {
+    setDisplay(false);
+  };
   let menuClickHandler = (e) => {
     if (e.target.innerText === selection) {
       setDisplay(false);
@@ -58,6 +61,7 @@ export default function Widgets() {
       </ul>
       <Cabinet
         clickHandler={(widget) => setDisplay(widget)}
+        returnHandler={goBackHandler}
         shouldDisplayWidget={display}
         menuSelection={selection}
         menuWidgets={menuWidgets}
